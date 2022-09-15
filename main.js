@@ -66,7 +66,7 @@ scene.background = spaceTexture;
 // Avatar
 
 <<<<<<< HEAD
-const jeffTexture = new THREE.TextureLoader().load("jeffs.jpg");
+const jeffTexture = new THREE.TextureLoader().load("jeff.jpg");
 =======
 const jeffTexture = new THREE.TextureLoader().load("jeff.jpg");
 >>>>>>> 06ed7ade2aeb960a5663527eaa9c22aa9e88b275
