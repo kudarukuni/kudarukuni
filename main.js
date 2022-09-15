@@ -37,11 +37,11 @@ scene.add(pointLight, ambientLight);
 
 // Helpers
 
-// const lightHelper = new THREE.PointLightHelper(pointLight)
-// const gridHelper = new THREE.GridHelper(200, 50);
-// scene.add(lightHelper, gridHelper)
+const lightHelper = new THREE.PointLightHelper(pointLight)
+const gridHelper = new THREE.GridHelper(200, 50);
+scene.add(lightHelper, gridHelper)
 
-// const controls = new OrbitControls(camera, renderer.domElement);
+const controls = new OrbitControls(camera, renderer.domElement);
 
 function addStar() {
   const geometry = new THREE.SphereGeometry(0.25, 24, 24);
@@ -65,7 +65,11 @@ scene.background = spaceTexture;
 
 // Avatar
 
+<<<<<<< HEAD
 const jeffTexture = new THREE.TextureLoader().load("jeffs.jpg");
+=======
+const jeffTexture = new THREE.TextureLoader().load("jeff.jpg");
+>>>>>>> 06ed7ade2aeb960a5663527eaa9c22aa9e88b275
 
 const jeff = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: jeffTexture }));
 
