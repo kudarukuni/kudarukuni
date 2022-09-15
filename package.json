@@ -10,6 +10,7 @@
     "vite": "^2.3.0"
   },
   "dependencies": {
+    "nodemon": "^2.0.19",
     "three": "^0.128.0"
   }
 }
