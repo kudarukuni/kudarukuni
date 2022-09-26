@@ -60,7 +60,7 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load("https://media.istockphoto.com/vectors/space-background-with-realistic-nebula-and-shining-stars-colorful-vector-id1173451503?k=20&m=1173451503&s=612x612&w=0&h=nyxt3C6OjEFcquvjLALrIz-67IEOEpfKNBvR8qi4sLA=");
+const spaceTexture = new THREE.TextureLoader().load("https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107__340.jpg");
 scene.background = spaceTexture;
 
 // Avatar
@@ -73,8 +73,8 @@ scene.add(jeff);
 
 // Moon
 
-const moonTexture = new THREE.TextureLoader().load("https://storage.googleapis.com/gweb-uniblog-publish-prod/images/New-global-view.max-1100x1100.jpeg");
-const normalTexture = new THREE.TextureLoader().load("https://bigthink.com/wp-content/uploads/2020/10/origin-26.jpg");
+const moonTexture = new THREE.TextureLoader().load("https://cdn.pixabay.com/photo/2015/11/22/08/30/monitor-1055961__340.png");
+const normalTexture = new THREE.TextureLoader().load("https://cdn.pixabay.com/photo/2012/10/10/11/04/footprint-60614__340.jpg");
 
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
