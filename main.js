@@ -73,7 +73,7 @@ scene.add(jeff);
 
 // Moon
 
-const moonTexture = new THREE.TextureLoader().load("moon.jpg");
+const moonTexture = new THREE.TextureLoader().load("https://thumbs.dreamstime.com/b/world-map-texture-global-satellite-photo-earth-view-space-detailed-flat-continents-oceans-panorama-planet-191724561.jpg");
 const normalTexture = new THREE.TextureLoader().load("normal.jpg");
 
 const moon = new THREE.Mesh(
