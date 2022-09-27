@@ -29,7 +29,7 @@ main{
 
 h1, h2, h3, blockquote{
   font-family: elevon, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -194,6 +194,16 @@ button {
   width: 100%;
 }
 
+.projects,
+.footer {
+  padding: 50px 100px 25px;
+}
+
+.footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .projects h2 {
   font-size: 42px;
   margin: 25px auto;
@@ -214,10 +224,8 @@ button {
 }
 
 .projects__card {
-  max-width: 350px;
-
+  max-width: 1000px;
   padding: 20px;
-
   border: 1px solid #0088BB;
   border-radius: 8px;
 }
