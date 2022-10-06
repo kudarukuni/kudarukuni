@@ -96,12 +96,8 @@ canvas {
   color: #FFFFFF;
 }
 
-.projects,
-.footer {
-  padding: 50px 100px 25px;
-}
-
 .footer {
   margin: 0 auto;
   text-align: center;
+  padding: 50px 100px 25px;
 }
