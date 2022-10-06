@@ -1,5 +1,6 @@
 - 👋 Hi, I’m @kudarukuni
-- 🚀 My online Curriculum Vitae hosted on Vercel https://kudarukuni.vercel.app/
+- 🚀 My online 3D Curriculum Vitae hosted on Vercel https://kudarukuni.vercel.app/
+- 🚀 My online 2D Curriculum Vitae hosted on Vercel https://cvtemp-kudarukuni.vercel.app/
 - 👀 I’m interested in Blockchain Robotics & Web3.0_IoT
 - 🌱 I’m currently learning Space Travel & Extra Terrestrial Science
 - 💞️ I’m looking to collaborate on Extra Terrestrial exploration solutions
