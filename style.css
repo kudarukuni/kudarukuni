@@ -95,3 +95,56 @@ canvas {
   background: #0088BB;
   color: #FFFFFF;
 }
+
+.projects,
+.footer {
+  padding: 50px 100px 25px;
+}
+
+.projects h2 {
+  font-size: 42px;
+  margin: 25px auto;
+}
+
+.projects p {
+  font-size: 18px;
+  line-height: 130%;
+  max-width: 50ch;
+}
+
+.projects__cards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projects__card {
+  max-width: 1000px;
+  padding: 20px;
+  border: 1px solid #0088BB;
+  border-radius: 8px;
+}
+
+.projects__card h3 {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.projects__card p {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.projects__card img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0 10px;
+  border-radius: 8px;
+}
+
+.projects__card .button {
+  margin: 10px 5px 0;
+}
