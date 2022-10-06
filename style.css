@@ -1,12 +1,6 @@
 @import url("https://use.typekit.net/jmk3xov.css");
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 canvas{
   position: fixed;
   top: 0;
@@ -22,7 +16,6 @@ canvas{
 }
 
 main{
-  width: 100vw;
   color: white;
   z-index: 99;
   position: absolute;
