@@ -7,7 +7,6 @@ canvas {
   left: 0;
 }
 
-
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
   --spacing: 350px;
@@ -17,7 +16,6 @@ canvas {
   font-style: normal;
 }
 
-
 main {
   width: 100vw;
   color: white;
@@ -26,7 +24,6 @@ main {
   width: 100%;
   margin: 0px auto;
   padding: 120px 0px;
-  
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
@@ -42,8 +39,6 @@ canvas {
   top: 0;
   left: 0;
 }
-
-
 
   header {
     background: var(--dark-bg);
@@ -82,5 +77,5 @@ canvas {
   }
 
   .light{
-    grid-column: 1 / 6;
+    grid-column: 2 / 7;
   }
