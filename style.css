@@ -11,17 +11,6 @@
   text-align: center;
 }
 
-.projects h2 {
-  font-size: 30px;
-  margin: 25px auto;
-}
-
-.projects p {
-  font-size: 18px;
-  line-height: 130%;
-  max-width: 50ch;
-}
-
 .projects__cards {
   display: flex;
   justify-content: flex-start;
@@ -35,17 +24,6 @@
   padding: 20px;
   border: 1px solid #0088BB;
   border-radius: 8px;
-}
-
-.projects__card h3 {
-  font-size: 28px;
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-
-.projects__card p {
-  font-size: 16px;
-  margin: 20px 0;
 }
 
 .projects__card img {
