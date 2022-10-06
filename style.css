@@ -21,6 +21,7 @@ main{
   z-index: 99;
   position: absolute;
   width: 100%;
+  max-width: 1200px;
   margin: 0px auto;
   padding: 120px 0px;
   display: grid;
@@ -202,6 +203,7 @@ button {
 .footer {
   margin: 0 auto;
   text-align: center;
+  padding: 50px 25px 25px;
 }
 
 .projects h2 {
