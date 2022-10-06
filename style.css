@@ -1,4 +1,11 @@
 @import url("https://use.typekit.net/jmk3xov.css");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 canvas{
   position: fixed;
@@ -9,7 +16,6 @@ canvas{
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
   --spacing: 350px;
-
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -32,12 +38,6 @@ h1, h2, h3, blockquote{
   font-family: elevon, sans-serif;
   font-weight: 500;
   font-style: normal;
-}
-
-canvas{
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
 header{
@@ -76,125 +76,6 @@ blockquote p{
   grid-column: 6 / 12;
 }
 
-button {
-  margin: 20px;
-}
-
-.custom-btn {
-  width: 200px;
-  height: 40px;
-  color: #ffffff;
-  border-radius: 10px;
-  padding: 10px 25px;
-  font-family: 'Lato', bold;
-  font-weight: 500;
-  background: transparent;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-  7px 7px 20px 0px rgba(0,0,0,.1),
-  4px 4px 5px 0px rgba(0,0,0,.1);
-  outline: none;
-  margin: 0 auto;
-  display: block;
-  margin-top:50px;
-}
-
-.waveButton {
-  background: rgb(137,255,012);
-  background: radial-gradient(circle, rgba(097,013,100,1) 0%, rgba(118,174,241,1) 100%);
-  line-height: 42px;
-  padding: 0;
-  border: none;
-}
-
-.waveButton span {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.waveButton:before,
-.waveButton:after {
-  position: absolute;
-  content: "";
-  height: 0%;
-  width: 1px;
-  box-shadow:
-  -1px -1px 20px 0px rgba(255,255,255,1),
-  -4px -4px 5px 0px rgba(255,255,255,1),
-  7px 7px 20px 0px rgba(0,0,0,.4),
-  4px 4px 5px 0px rgba(0,0,0,.3);
-}
-
-.waveButton:before {
-  right: 0;
-  top: 0;
-  transition: all 500ms ease;
-}
-
-.waveButton:after {
-  left: 0;
-  bottom: 0;
-  transition: all 500ms ease;
-}
-
-.waveButton:hover{
-  background: transparent;
-  color: #000000;
-  background: rgb(247,150,192);
-  opacity: 0.7;
-  box-shadow: none;
-}
-
-.waveButton:hover:before {
-  transition: all 500ms ease;
-  height: 100%;
-}
-
-.waveButton:hover:after {
-  transition: all 500ms ease;
-  height: 100%;
-}
-
-.waveButton span:before,
-.waveButton span:after {
-  position: absolute;
-  content: "";
-  box-shadow:
-  -1px -1px 20px 0px rgba(255,255,255,1),
-  -4px -4px 5px 0px rgba(255,255,255,1),
-  7px 7px 20px 0px rgba(0,0,0,.4),
-  4px 4px 5px 0px rgba(0,0,0,.3);
-}
-
-.waveButton span:before {
-  left: 0;
-  top: 0;
-  width: 0%;
-  height: .5px;
-  transition: all 500ms ease;
-}
-
-.waveButton span:after {
-  right: 0;
-  bottom: 0;
-  width: 0%;
-  height: .5px;
-  transition: all 500ms ease;
-}
-
-.waveButton span:hover:before {
-  width: 100%;
-}
-
-.waveButton span:hover:after {
-  width: 100%;
-}
-
 .projects,
 .footer {
   padding: 50px 100px 25px;
@@ -203,7 +84,6 @@ button {
 .footer {
   margin: 0 auto;
   text-align: center;
-  padding: 50px 25px 25px;
 }
 
 .projects h2 {
@@ -247,7 +127,6 @@ button {
   width: 100%;
   height: auto;
   margin: 20px 0 10px;
-
   border-radius: 8px;
 }
 
@@ -257,21 +136,16 @@ button {
 
 .button {
   display: inline-block;
-
+  margin: 20px;
   background: #12BDF3;
-
   padding: 15px 50px;
-
   border: none;
   border-radius: 8px;
-
   font-family: "Work Sans";
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
-
   cursor: pointer;
-
   transition: all 250ms ease;
 }
 
