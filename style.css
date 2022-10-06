@@ -1,4 +1,5 @@
 @import url("https://use.typekit.net/jmk3xov.css");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
 canvas {
   position: fixed;
@@ -42,8 +43,6 @@ canvas {
   left: 0;
 }
 
-
-
   header {
     background: var(--dark-bg);
     grid-column: 2 / span 5;
@@ -78,4 +77,82 @@ canvas {
 
   .left {
     grid-column: 6 / 12;
+  }
+
+  .projects,
+  .footer {
+    padding: 50px 100px 25px;
+  }
+
+  .footer {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .projects h2 {
+    font-size: 42px;
+    margin: 25px auto;
+  }
+
+  .projects p {
+    font-size: 18px;
+    line-height: 130%;
+    max-width: 50ch;
+  }
+
+  .projects__cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .projects__card {
+    max-width: 1000px;
+    padding: 20px;
+    border: 1px solid #0088BB;
+    border-radius: 8px;
+  }
+
+  .projects__card h3 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+
+  .projects__card p {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+
+  .projects__card img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0 10px;
+    border-radius: 8px;
+  }
+
+  .projects__card .button {
+    margin: 10px 5px 0;
+  }
+
+  .button {
+    display: inline-block;
+    margin: 20px;
+    background: #12BDF3;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 250ms ease;
+  }
+
+  .button:hover {
+    background: #0088BB;
+    color: #FFFFFF;
   }
