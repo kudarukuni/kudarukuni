@@ -34,6 +34,26 @@ h1, h2, h3, blockquote {
   font-style: normal;
 }
 
+.button {
+  display: inline-block;
+  margin: 20px;
+  background: #12BDF3;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 250ms ease;
+}
+
+.button:hover {
+  background: #0088BB;
+  color: #FFFFFF;
+}
+
 canvas {
   position: fixed;
   top: 0;
@@ -75,29 +95,3 @@ canvas {
   .left {
     grid-column: 6 / 12;
   }
-
-.button {
-  display: inline-block;
-  margin: 20px;
-  background: #12BDF3;
-  padding: 15px 50px;
-  border: none;
-  border-radius: 8px;
-  font-family: "Work Sans";
-  font-size: 16px;
-  font-weight: 700;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 250ms ease;
-}
-
-.button:hover {
-  background: #0088BB;
-  color: #FFFFFF;
-}
-
-.footer {
-  margin: 0 auto;
-  text-align: center;
-  padding: 50px 100px 25px;
-}
