@@ -5,9 +5,8 @@
 - 💞️ I’m looking to collaborate on Extra Terrestrial exploration solutions
 - 📫 How to reach me will be available on all my continously maintained and updated portfolio sites.
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kudarukuni&show_icons=true&locale=en&layout=compact" alt="kudarukuni"/></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kudarukuni&theme=dark&show_icons=true&locale=en&layout=compact" alt="kudarukuni"/></p>
 <br/>
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=kudarukuni&show_icons=true&locale=en" alt="kudarukuni"/></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=kudarukuni&theme=dark&show_icons=true&locale=en" alt="kudarukuni"/></p>
 <br/>
-<p><img align="center" src="https://streak-stats.demolab.com?user=kudarukuni&theme=nightowl&hide_border=true"/></p>
-
+<p><img align="center" src="https://streak-stats.demolab.com?user=kudarukuni&theme=dark&hide_border=true"/></p>
