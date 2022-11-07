@@ -9,4 +9,4 @@
 <br/>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=kudarukuni&theme=dark&show_icons=true&locale=en" alt="kudarukuni"/></p>
 <br/>
-<p><img align="center" src="https://streak-stats.demolab.com?user=kudarukuni&theme=dark&hide_border=true"/></p>
+<p><img align="center" src="https://streak-stats.demolab.com?user=kudarukuni&theme=dark"/></p>
