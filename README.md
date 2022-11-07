@@ -6,7 +6,7 @@
 - 📫 How to reach me will be available on all my continously maintained and updated portfolio sites.
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kudarukuni&show_icons=true&locale=en&layout=compact" alt="kudarukuni"/></p>
-&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=kudarukuni&show_icons=true&locale=en" alt="kudarukuni"/></p>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<p><img align="center" src="https://github-readme-streak-stats.vercel.com/?user=kudarukuni&" alt="kudarukuni"/></p>
+<br>
+[![GitHub Streak](https://streak-stats.demolab.com?user=kudarukuni&theme=nightowl&hide_border=true)](https://git.io/streak-stats)
