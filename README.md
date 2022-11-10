@@ -8,7 +8,7 @@
 <p><img src="https://komarev.com/ghpvc/?username=kudarukuni&label=Profile%20views&color=0b8f09&style=flat" alt="kudarukuni"></p>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kudarukuni&theme=dark&show_icons=true&locale=en&layout=compact" alt="kudarukuni"/></p>
-<br/><br/><br/>
+<span></span>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=kudarukuni&theme=dark&show_icons=true&locale=en" alt="kudarukuni"/></p>
-<br/>
+<span></span>
 <p><img align="center" src="https://streak-stats.demolab.com?user=kudarukuni&theme=dark"/></p>
